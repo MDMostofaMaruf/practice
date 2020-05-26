@@ -1,0 +1,197 @@
+<html>
+  <head>
+	<title>
+	Home
+	</title>
+
+     <link rel = " stylesheet" type= "text/css" href ="css/style.css" >
+	 <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  </head>
+
+<body>
+	<div class = "container">
+
+	
+	  <div class = "nav" >
+
+		<div class = "left-side">
+		
+			  
+			  <div class = "nav-link active-nav-link">
+				<a href = "index.html"> HOME </a>
+			  </div>
+			  
+			  <div class = "nav-link">
+				<a href = "event&services.html"> Event & Services </a>
+			  </div>
+			  <div class = "nav-link">
+				<a href = "About.html"> ABOUT </a>
+			  </div>
+			  
+			  
+		</div>
+		 
+		<div class = "right-side">
+		
+	  <div class ="logoN">
+				     <img src = "image/logo/logo.jpg">
+				   </div>
+           <div class ="logoN">
+				     <img src = "image/logo/ourlogo.png">
+				   </div>         
+				  
+		   
+		  	
+		</div>
+		
+	  </div>
+	  <div class ="head">
+	<div class ="head-img-background" style="background-image:url(image/head.jpg)">
+	<div class ="head-content">
+	<blink>  CDU CODING CLUB </blink>
+	  </div>
+	
+	</div>
+	
+	</div>
+	  
+	  
+    <div class = "content">
+		<div class = "portfolio-items">
+			 <div class = "portfolio-item">
+			   <div class ="portfolio-img-background" style="background-image:url(image/1.jpg)"> </div>
+			   
+			   <div class = "img-text">
+				   <div class ="logo">
+				     <img src = "image/logo/1a.png">
+				   </div>
+				   
+				   <div class = "subtitle">
+				  Enhance your coding skills to the fullest! You will be able to brush up your coding methodologies to 
+				  the extreme and learn life-long skills! Range of languages to choose from including JAVA, Python, Ruby, HTML, CSS, JavaScript and many more to come!
+				   
+				   </div>
+			   </div>
+			   
+			 </div>
+			 <div class = "portfolio-item">
+			   <div class ="portfolio-img-background" style="background-image:url(image/2.png)"> </div>
+			   
+			   <div class = "img-text">
+				   <div class ="logo">
+				     <img src = "image/logo/2a.png">
+				   </div>
+				   
+				   <div class = "subtitle">
+				   We have a range of events you could choose from, not only would you get to consume the best of knowledge, you would make friends from all paths of life.
+				   Moreover, our events include multiple career 
+				   fairs throughout the year, participated by the leading brands! So, this is your chance to brighten up your career and secure yourself an internship.
+				   
+				   </div>
+			   </div>
+			   
+			 </div>
+			 <div class = "portfolio-item">
+			   <div class ="portfolio-img-background" style="background-image:url(image/3.jpeg)"> </div>
+			   
+			   <div class = "img-text">
+				   <div class ="logo">
+				     <img src = "image/logo/3a.png">
+				   </div>
+				   
+				   <div class = "subtitle">
+				   Concise makes perfection, we prefer to collaborate into small efficient groups of IT professionals. 
+				   It truly gives you an opportunity to prove yourself and to team up for the best of outcome
+				   
+				   </div>
+			   </div>
+			   
+			 </div>
+			 <div class = "portfolio-item">
+			   <div class ="portfolio-img-background" style="background-image:url(image/4.jpg)"> </div>
+			   
+			   <div class = "img-text">
+				   <div class ="logo">
+				     <img src = "image/logo/4a.jpg">
+				   </div>
+				   
+				   <div class = "subtitle">
+      	We also provide a range of services for our third-party clienteles, 
+      so this is your chance to set a benchmark into the world of software engineering and build an astonishing portfolio which would brighten your career in the tech arena.
+				   
+				   </div>
+			   </div>
+			   
+			 </div>
+			 <div class = "portfolio-item">
+			   <div class ="portfolio-img-background" style="background-image:url(image/5.jpg)"> </div>
+			   
+			   <div class = "img-text">
+				   <div class ="logo">
+				     <img src = "image/logo/5a.png">
+				   </div>
+				   
+				   <div class = "subtitle">
+				  We have tonnes of online content available for you to consume and sharpen up your skills.
+				  We have contents on Youtube and SkillShare for your convenience. 
+				   
+				   </div>
+			   </div>
+			   
+			 </div>
+			
+						 <div class = "portfolio-item">
+			   <div class ="portfolio-img-background" style="background-image:url(image/6.jpg)"> </div>
+			   
+			   <div class = "img-text">
+				   <div class ="logo">
+				     <img src = "image/logo/6a.jpg">
+				   </div>
+				   
+				   <div class = "subtitle">
+				  Global exchange opportunities will allow you to meet bright professionals from all around the world. 
+				  We are partnered with various European and North American countries for you to travel and gain knowledge. 
+				   
+				   </div>
+			   </div>
+			   
+			 </div>
+			
+			
+			 
+			
+			
+		</div>
+    </div>	
+	
+	<div class ="footer" >
+	
+	</div>
+
+	</div>
+</body>
+
+<script>
+  const Portfolioitem = document.querySelectorAll('.portfolio-item')
+  Portfolioitem.forEach(Portfolioitem =>{
+     Portfolioitem.addEventListener('mouseover',() =>{
+	 
+	 
+  Portfolioitem.childNodes[1].classList.add('img-darken');
+    })
+  
+})
+
+Portfolioitem.forEach(Portfolioitem =>{
+     Portfolioitem.addEventListener('mouseout',() =>{
+	 
+	 
+  Portfolioitem.childNodes[1].classList.remove('img-darken');
+    })
+  
+})
+
+</script>
+
+
+</html>
